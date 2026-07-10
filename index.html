@@ -1,11 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Hii Mushtaq</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Google-Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navber -->
+    <nav class="container">
+      <div class="navber">
+        <div>
+          <img src="./assets/logo.png" alt="webLogo" />
+        </div>
+        <div class="listItems">
+          <ul>
+            <li><a href="./speakers">Speakers</a></li>
+            <li><a href="./schedule">Schedule</a></li>
+            <li><a href="./tracks">Tracks</a></li>
+            <li><a href="./venue">Venue</a></li>
+            <li><a href="./blog">Blog</a></li>
+          </ul>
+        </div>
+
+        <button class="common-btn">Register Now</button>
+      </div>
+    </nav>
+    <!-- Section-01 -->
+    <section class="section-01 backgroundImage">
+      <div>
+        <div class="h2">
+          <h2>Code. Connect. Create</h2>
+        </div>
+        <div class="paragraph-1">
+          <p>
+            Join 4,000+ engineers, founders, and builders at the premier
+            developer conference of 2026. Three days of cutting-edge talks,
+            hands-on workshops, and meaningful connections.
+          </p>
+        </div>
+      </div>
+
+      <button class="common-btn rgt-btn">Register Now</button>
+    </section>
+    <!-- Section-02 -->
+    <section class="section-02">
+      <h2 class="heading-1">Meet the Speakers</h2>
+      <div class="card">
+        <div class="innerCard">
+          <img src="./assets/andrej.png" alt="Andrej Karpathy photos">
+          <p class="paragraph-2">AI / ML</p>
+          <h2>Andrej Karpathy</h2>
+          <p>Pretraining team, Anthropic</p>
+        </div>
+        <div class="innerCard">
+          <img src="./assets/demis.png" alt="Demis Hassabis photo">
+          <p class="paragraph-2">Cloud & DevOps</p>
+          <h2>Demis Hassabis</h2>
+          <p>Co-Founder and CEO, Google DeepMind</p>
+        </div>
+        <div class="innerCard">
+          <img src="./assets/gary.png" alt="Gary Marcus photo">
+          <p class="paragraph-2">Frontend</p>
+          <h2>Gary Marcus</h2>
+          <p>Staff Engineer, Vercel</p>
+        </div>
+        <div class="innerCard">
+          <img src="./assets/mustafa.png" alt="Mustafa Suleyman photo">
+          <p class="paragraph-2">Security</p>
+          <h2>Mustafa Suleyman</h2>
+          <p>CEO of Microsoft AI</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

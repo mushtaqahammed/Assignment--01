@@ -1,0 +1,25 @@
+You are an expert front-end developer and UI/UX designer.
+
+Create a completely original section for a DevConf 2026 landing page using ONLY HTML5 and CSS3.
+
+The section title should be "Innovation Lab".
+
+Concept:
+This section introduces three futuristic innovation zones available during the conference:
+1. AI Playground – Visitors can try AI-powered coding assistants and developer tools.
+2. Open Source Garage – Developers can collaborate on live open-source projects with mentors.
+3. Startup Launch Corner – Early-stage startups can present ideas, receive expert feedback, and network with investors.
+
+Requirements:
+- Use semantic HTML.
+- Use modern CSS (Flexbox or Grid).
+- No JavaScript.
+- No external frameworks like Bootstrap or Tailwind.
+- Responsive for desktop, tablet, and mobile.
+- Maximum content width around 1100px.
+- Use rounded cards, subtle shadows, and clean spacing.
+- Include a heading, short introduction, three feature cards, simple icons using emoji (🤖, 💻, 🚀), and a "Join the Innovation Lab" button.
+- Use a blue and white color palette that matches a modern developer conference.
+- Write concise and professional text.
+- Keep the code clean, beginner-friendly, and well commented.
+- Return only HTML and CSS.

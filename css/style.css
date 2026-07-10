@@ -4,7 +4,8 @@
   font-family: "Open Sans", sans-serif;
 }
 .container {
-  width: 1700px;
+  max-width: 1700px;
+    width: 100%;
   margin: auto;
 }
 
@@ -16,7 +17,7 @@
   cursor: pointer;
   background-color: #1d4ed8;
   color: white;
-  padding: 10px 20px;
+  padding: 0 20px;
 }
 /* Navber */
 .navber {
@@ -84,7 +85,9 @@
 /* Section-02 */
 
 .section-02 {
-  width: 1500px;
+   max-width: 1300px;
+    width: 100%;
+   
   margin: auto;
 }
 .section-02 .heading-1 {
@@ -101,6 +104,18 @@
   grid-template-rows: repeat(2, 1fr);
   place-content: center;
   place-items: center;
+
+    width: 100%;
+    margin: auto;
+    column-gap: 20px;
+    padding-left: 20px;padding-right: 20px;
+     box-sizing: border-box;
+}
+.section-02 .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+
 }
 
 .section-02 .innerCard {
@@ -111,14 +126,227 @@
 }
 
 .card h2 {
-  padding: 0 20px;
+  padding: 0 9px;
 }
 
 .card p {
-  padding: 0 20px;
+  padding: 0 10px;
   margin-bottom: 20px;
 }
 
 .paragraph-2 {
   color: #1d4ed8;
+}
+
+/* Section-03 */
+.flex-propartis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.section-03 .upperBox{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+  
+   max-width: 1100px;
+    width: 100%;
+  margin: auto;
+  column-gap: 30px;
+  padding:0 20px;
+
+
+}
+
+.innerBox{
+  padding: 20px 30px; 
+   background-color:  #edf0f7;
+   border-radius: 10px;
+    display: flex;
+  flex-direction: column;
+   box-sizing: border-box;
+  
+   
+}
+
+.btn-pro{
+    font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #1d4ed8;
+  color: white;
+padding:3px 60px;
+  margin-top: 55px;
+   
+  
+}
+.btn{
+    font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  border:1px solid #1d4ed8;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding:3px 20px;
+ 
+  
+}
+.btn,
+.btn-pro{
+  width: 100%;
+  max-width: 250px;
+}
+
+.probox{
+  background-color:#0D1B2A;
+  color: white;
+}
+
+.button{
+  margin-top: 54px;
+}
+.section-03 hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Challenging part */
+
+
+.innovation-lab{
+   max-width: 1500px;
+    width: 100%;
+    margin: 80px auto 30px;
+    padding: 20px;
+    background-color:  #edf0f7;
+}
+
+.innovation-lab .container{
+    max-width:1100px;
+    width:100%;
+    margin:auto;
+    text-align:center;
+}
+
+.innovation-lab h2{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#0f172a;
+}
+
+.innovation-lab .intro{
+    max-width:700px;
+    margin:0 auto 50px;
+    color:#555;
+    line-height:1.7;
+}
+
+.innovation-cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.lab-card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.lab-card:hover{
+    transform:translateY(-8px);
+}
+
+.icon{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.lab-card h3{
+    margin-bottom:15px;
+    color:#1d4ed8;
+}
+
+.lab-card p{
+    color:#555;
+    line-height:1.7;
+}
+
+.innovation-btn{
+    margin-top:50px;
+    padding:14px 35px;
+    border:none;
+    border-radius:8px;
+    background:#1d4ed8;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.innovation-btn:hover{
+    background:#163db3;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .innovation-cards{
+        grid-template-columns:1fr;
+    }
+
+    .innovation-lab h2{
+        font-size:32px;
+    }
+
+}
+
+/* Footer */
+.footer{
+    max-width: 1600px;
+    width: 100%;
+    margin: 80px auto 30px;
+    padding: 20px;
+    background-color:  #edf0f7;
+    
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img{
+    font-size: 24px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.social-links a{
+    color: #000;
+    font-size: 22px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.footer hr{
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+    color: gray;
 }
